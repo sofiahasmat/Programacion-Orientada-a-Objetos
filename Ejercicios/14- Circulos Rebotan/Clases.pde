@@ -23,5 +23,6 @@ class Movil{
   
   void mover(){
     pos.add(vel);
+    vel.rotate(PI / 300);
   }
 }
